@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Mendoza - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #34495e;
+            text-align: center;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-top: 40px;
+            color: #2c3e50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        p {
+            margin: 15px 0;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .project-img {
+            width: 100%;
+            max-width: 280px;
+            margin: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .contact, .resume {
+            margin-top: 30px;
+            padding: 15px;
+            background: #eaf2f8;
+            border-left: 5px solid #3498db;
+        }
+        .resume {
+            background: #fff0f5;
+            border-left: 5px solid #e91e63;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sofia Mendoza</h1>
+    <h2>Data Science & Software Engineering Student | Aspiring Social Media Engineer & Analyst</h2>
+
+    <!-- Headshot -->
+    <div style="text-align:center;">
+        <img src="image.jpeg" alt="Sofia Mendoza Headshot" class="project-img">
+    </div>
+
+    <p>
+        Hi! My name is Sofia Mendoza. I’m a student at Northern Arizona University double majoring in 
+        <b>Data Science</b> and <b>Software Engineering</b> with a minor in Advertising. 
+        I’m passionate about blending creativity with technical skills using data, coding, and design to 
+        solve problems and create meaningful digital experiences. 
+        I’m also deeply involved in leadership and community on campus.
+    </p>
+
+    <h3>Skills</h3>
+    <ul>
+        <li><b>Programming Languages:</b> Python, Java, SQL, HTML, CSS, JavaScript</li>
+        <li><b>Data Tools:</b> R, Excel, Tableau</li>
+        <li><b>Frameworks & Technologies:</b> React.js, Express.js, PostgreSQL</li>
+        <li><b>Soft Skills:</b> Project management, Communication, Leadership, Content Creation</li>
+    </ul>
+
+    <h3>Projects</h3>
+    <p><u>Timely App:</u> A scheduling web app that lets students import calendars, connect with classmates, and create shared schedules for collaboration.</p>
+    <img src="image.png" alt="Timely App Screenshot" class="project-img">
+    <img src="https://dummyimage.com/280x180/ffe6f0/333&text=Calendar+Integration" alt="Calendar Integration Feature" class="project-img">
+    <img src="https://dummyimage.com/280x180/fff0f5/333&text=Team+Collaboration" alt="Team Collaboration Feature" class="project-img">
+
+    <p><u>Virtual Pet Web App:</u> Built with React.js (frontend), Express.js (backend), and PostgreSQL (database). Users can adopt and care for virtual pets.</p>
+    <img src="https://dummyimage.com/280x180/ffe6f0/333&text=Adopt+Pets" alt="Adopt Pets Screenshot" class="project-img">
+    <img src="https://dummyimage.com/280x180/fff0f5/333&text=Pet+Care" alt="Pet Care Feature" class="project-img">
+
+    <p><u>Data Storytelling:</u> Translated complex datasets (unemployment, housing, pricing trends) into insights, visuals, and presentations for a company project.</p>
+    <img src="https://dummyimage.com/280x180/ffe6f0/333&text=Data+Visualization" alt="Data Visualization Screenshot" class="project-img">
+    <img src="https://dummyimage.com/280x180/fff0f5/333&text=Business+Insights" alt="Business Insights Screenshot" class="project-img">
+
+    <h3>Education and Experience</h3>
+    <table>
+        <tr>
+            <th>Institution / Company</th>
+            <th>Degree / Position</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Northern Arizona University</td>
+            <td>B.S. in Data Science & Software Engineering, Advertising Minor</td>
+            <td>2022 – Present</td>
+        </tr>
+        <tr>
+            <td>Data Science Club</td>
+            <td>President</td>
+            <td>2024 – Present</td>
+        </tr>
+        <tr>
+            <td>CHAARG</td>
+            <td>Vice President of Media</td>
+            <td>2024 – Present</td>
+        </tr>
+        <tr>
+            <td>Internship</td>
+            <td>Data Analytics / Business Intelligence / Marketing</td>
+            <td>Summer 2024</td>
+        </tr>
+    </table>
+
+    <div class="contact">
+        <p><b>Contact Information:</b></p>
+        <p>Email: <a href="mailto:sim89@nau.edu">sim89@nau.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sofia-mendoza-a12063294/" target="_blank">linkedin.com/in/sofia-mendoza</a></p>
+        <p>GitHub: <a href="https://github.com/sm020404" target="_blank">github.com/sm020404</a></p>
+    </div>
+
+    <div class="resume">
+        <p><b>Download Resume:</b></p>
+        <a href="https://docs.google.com/document/d/14STMIGtObyJw1OqS8vbxHX9NTK83JT9FZh3Nr-WV450/edit?usp=sharing" target="_blank">
+            Download Sofia Mendoza's Resume
+        </a>
+    </div>
+</body>
+</html>
